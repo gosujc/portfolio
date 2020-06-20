@@ -7,6 +7,7 @@
 body, html {
     font-family: 'Raleway', sans-serif;
     background-color: #EEE2DC;
+    font-weight: 250;
 }
 
 /*****************/
@@ -51,11 +52,18 @@ header {
 /***Landing Page
 /*****************/
 
-.landing-page::before {
-    background: url()
+
+
+.landing-page {
+    padding: 350px 0 350px 0;
+    background-image: url(/home/gosu_jc/Coding/portfolio/resources/img)
 }
 
-
+.landing-page h1 {
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+}
 
 
 /*****************/
@@ -69,9 +77,23 @@ header {
 
 blockquote {
     border-left: 4px solid #123C69;
+    padding-left: 15px;
 }
+
+blockquote h2 {
+    font-weight: 500;
+}
+
 
 h3 {
     font-size: 75px;
-    font-weight: 900; 
+    font-weight: 300;
+}
+
+/*****************/
+/***About
+/*****************/
+
+.about {
+    font-size: 30px;
 }
