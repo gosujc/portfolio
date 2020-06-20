@@ -6,7 +6,7 @@
 
 body, html {
     font-family: 'Raleway', sans-serif;
-    background-color: #f1d1c2;
+    background-color: #EEE2DC;
 }
 
 /*****************/
@@ -19,21 +19,14 @@ body, html {
     width: 250px;
     height: 100%;
     z-index: 999;
-    background-color: #EEE2DC;
+    background-color: #A8D0E6;
     position: fixed;
 }
 
 header {
     border-bottom: 1px solid #ddd;
     text-align: center;
-}
-
-.pic {
-    position: relative;
-    height: 163px;
-    width: 152px;
-    border-radius: 50%;
-    margin: 15px 40px 10px 50px;
+    padding-bottom: 15px;
 }
 
 .nav-link {
@@ -42,8 +35,28 @@ header {
 }
 
 #nav-bar li {
-    border-bottom: 1px solid #ddd;
+    padding: 15px 0 15px 0;
 }
+
+.pic {
+    position: relative;
+    height: 163px;
+    width: 152px;
+    border-radius: 50%;
+    margin: 15px 160px 5px 50px;
+    border-bottom: none;
+}
+
+/*****************/
+/***Landing Page
+/*****************/
+
+.landing-page::before {
+    background: url()
+}
+
+
+
 
 /*****************/
 /***Main
@@ -52,4 +65,13 @@ header {
 .main-page {
     padding-left: 280px;
     position: relative;
+}
+
+blockquote {
+    border-left: 4px solid #123C69;
+}
+
+h3 {
+    font-size: 75px;
+    font-weight: 900; 
 }
