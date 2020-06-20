@@ -6,4 +6,45 @@
 
 body, html {
     font-family: 'Raleway', sans-serif;
+    background-color: #f1d1c2;
+}
+
+/*****************/
+/***Nav-Bar
+/*****************/
+
+#nav-bar {
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    z-index: 999;
+    background-color: #EEE2DC;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.pic {
+    position: relative;
+    height: 163px;
+    width: 152px;
+    border-radius: 50%;
+    margin: 15px 40px 10px 50px;
+}
+
+.nav-link {
+    list-style: none;
+    padding-left: 30px;
+}
+
+
+/*****************/
+/***Main
+/*****************/
+
+.main-page {
+    padding-left: 280px;
 }
