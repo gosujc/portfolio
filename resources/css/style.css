@@ -6,7 +6,7 @@
 
 body, html {
     font-family: 'Raleway', sans-serif;
-    background-color: #FBE8A6;
+    background-color: #FEFEFA;
     font-weight: 250;
 }
 
@@ -20,14 +20,22 @@ body, html {
     width: 250px;
     height: 100%;
     z-index: 999;
-    background-color: #D2FDFF;
+    background-color: #F3E5AB;
     position: fixed;
 }
 
 header {
     border-bottom: 1px solid #ddd;
-    text-align: center;
-    padding-bottom: 15px;
+    text-align: left;
+    padding: 25px 0 25px 25px;
+    font-weight: 300;
+    color: #F4976C;
+    font-size: 35px;
+}
+
+header p {
+    font-size: 20px;
+    color: #303C6C;
 }
 
 .nav-link {
@@ -62,6 +70,7 @@ header {
     text-align: center;
     font-weight: 400;
     font-style: italic;
+    color:  #000;
 }
 
 .landing-page p {
@@ -69,6 +78,7 @@ header {
     text-align: center;
     font-style: italic;
     font-weight: 400;
+    color:  #000;
 }
 
 /*****************/
@@ -103,19 +113,50 @@ h3 {
 /***About
 /*****************/
 
-.about {
+#about {
     font-size: 30px;
-    background-color: #F4976C;
+    background-color: #FEFEFA;
 }
 
-.about p {
-    margin: 25px 120px 25px 120px;
-}
-
-.about: last-child {
-    margin-bottom: 50px;
+#about p {
+    margin: 25px 120px 30px 120px;
 }
 
 .bottom-p {
     margin-bottom: 50px;
 }
+
+/*****************/
+/***Projects
+/*****************/
+
+.projects-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax(280px, 1fr));
+    grid-gap: 4rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.projects-heading {
+    font-size: 75px;
+    font-weight: 300;
+    text-align: left;
+    background-color: #303C6C;
+    padding: 10px 0px 10px 20px;
+    color: white;
+    max-width: 1760px;
+}
+
+.legend {
+    height: 400px;
+    width: 350px;
+}
+
+.project-image {
+    height: 400px;
+    width: 350px;
+}
+
