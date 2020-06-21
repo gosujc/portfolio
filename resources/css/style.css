@@ -6,7 +6,7 @@
 
 body, html {
     font-family: 'Raleway', sans-serif;
-    background-color: #EEE2DC;
+    background-color: #FBE8A6;
     font-weight: 250;
 }
 
@@ -20,7 +20,7 @@ body, html {
     width: 250px;
     height: 100%;
     z-index: 999;
-    background-color: #A8D0E6;
+    background-color: #D2FDFF;
     position: fixed;
 }
 
@@ -52,32 +52,38 @@ header {
 /***Landing Page
 /*****************/
 
-
-
 .landing-page {
-    padding: 350px 0 350px 0;
-    background-image: url(/home/gosu_jc/Coding/portfolio/resources/img)
+    padding: 350px 0 500px 0;
+    background-image: url(/home/gosu_jc/Coding/portfolio/resources/img);
 }
 
 .landing-page h1 {
+    font-size: 60px;
     text-align: center;
     font-weight: 400;
     font-style: italic;
 }
 
+.landing-page p {
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
 
 /*****************/
 /***Main
 /*****************/
 
 .main-page {
-    padding-left: 280px;
+    padding-left: 250px;
     position: relative;
 }
 
 blockquote {
     border-left: 4px solid #123C69;
-    padding-left: 15px;
+    padding-left: 25px;
+    margin: 30px 120px 15px 120px;
 }
 
 blockquote h2 {
@@ -88,6 +94,9 @@ blockquote h2 {
 h3 {
     font-size: 75px;
     font-weight: 300;
+    background-color: #303C6C;
+    padding: 10px 0px 10px 20px;
+    color: white;
 }
 
 /*****************/
@@ -96,4 +105,17 @@ h3 {
 
 .about {
     font-size: 30px;
+    background-color: #F4976C;
+}
+
+.about p {
+    margin: 25px 120px 25px 120px;
+}
+
+.about: last-child {
+    margin-bottom: 50px;
+}
+
+.bottom-p {
+    margin-bottom: 50px;
 }
