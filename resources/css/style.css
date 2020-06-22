@@ -44,7 +44,9 @@ header p {
 }
 
 #nav-bar li {
-    padding: 15px 0 15px 0;
+    padding: 40px 20px 40px 0px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .pic {
@@ -62,7 +64,10 @@ header p {
 
 .landing-page {
     padding: 350px 0 500px 0;
-    background-image: url(/home/gosu_jc/Coding/portfolio/resources/img);
+    background-image: url(/Users/David/Coding/portfolio/resources/img/mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .landing-page h1 {
@@ -70,7 +75,7 @@ header p {
     text-align: center;
     font-weight: 400;
     font-style: italic;
-    color:  #000;
+    color:  #fff;
 }
 
 .landing-page p {
@@ -78,7 +83,7 @@ header p {
     text-align: center;
     font-style: italic;
     font-weight: 400;
-    color:  #000;
+    color:  #fff;
 }
 
 /*****************/
@@ -130,10 +135,14 @@ h3 {
 /***Projects
 /*****************/
 
+#projects {
+    text-align: center; 
+}
+
 .projects-grid {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat (auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 4rem;
     max-width: 1280px;
     margin: 0 auto;
@@ -150,14 +159,9 @@ h3 {
     max-width: 1760px;
 }
 
-.legend {
-    height: 400px;
-    width: 350px;
-}
-
 .project-image {
-    height: 400px;
-    width: 500px;
+    height: calc(100% - 6.8rem);
+    width: 
 }
 
 /*****************/
