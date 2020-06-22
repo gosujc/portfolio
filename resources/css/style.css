@@ -102,7 +102,7 @@ blockquote h2 {
 
 
 h3 {
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 300;
     background-color: #303C6C;
     padding: 10px 0px 10px 20px;
@@ -141,7 +141,7 @@ h3 {
 }
 
 .projects-heading {
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 300;
     text-align: left;
     background-color: #303C6C;
@@ -157,6 +157,6 @@ h3 {
 
 .project-image {
     height: 400px;
-    width: 350px;
+    width: 500px;
 }
 
