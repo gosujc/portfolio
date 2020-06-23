@@ -46,7 +46,7 @@ header p {
 #nav-bar li {
     padding: 40px 20px 40px 0px;
     text-align: left;
-    font-size: 30px;
+    font-size: 23px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -143,7 +143,7 @@ h3 {
 .projects-grid {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 4rem;
     width: 100%;
     max-width: 1280px;
@@ -162,17 +162,26 @@ h3 {
     max-width: 1760px;
 }
 
+.project-tile {
+    width: 450px;
+    height: 350px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 60px;
+}
+
 .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
+    text-align: center;
 }
 
 #projects p {
     font-size: 20px;
     font-weight: 300;
+    padding: 40px 5px 20px 5px;
 }
-
 
 img {
     display: block;
